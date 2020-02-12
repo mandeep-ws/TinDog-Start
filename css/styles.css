@@ -24,8 +24,9 @@ h2{
 
 }
 .container-fluid{
-  padding: 3% 15%;
+  padding: 3% 15% 15%;
   color: #fff;
+
 }
 
 
@@ -52,6 +53,16 @@ h2{
 .title-image{
   width: 60%;
   transform: rotate(25deg);
+  position: absolute;
+}
+
+@media (max-width: 1150px ) {
+  .title-image{
+
+    transform: rotate(0deg);
+    position: static;
+  }
+
 }
 
 .navbar-brand{
@@ -85,6 +96,10 @@ h2{
   padding: 7% 15%;
   text-align: center;
   font-family: 'Montserrat-Black', sans-serif;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+
 
 }
 #testimonials{
@@ -114,4 +129,40 @@ h2{
 }
 .carousel-item{
   padding: 7% 15%;
+}
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-col{
+  padding : 3% 2%;
+
+}
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  margin-bottom: 60px;
+  font-family: 'Montserrat-Black', sans-serif;
+  color: #fff;
+
+}
+
+.apple-btn{
+  margin: 6% 3% 5% 2%;
+}
+
+h3{
+  padding-top: 80px;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+#footer{
+  text-align: center;
+}
+
+.copyright{
+  padding: 20px;
 }
